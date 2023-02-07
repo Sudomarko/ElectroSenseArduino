@@ -111,7 +111,7 @@ void setup() {
      of readSensor() calls, which would make the pulse measurement
      not work properly.
   */
-  Serial.begin(9600);
+  Serial.begin(250000);
 
   /*
      Configure the PulseSensor manager,
